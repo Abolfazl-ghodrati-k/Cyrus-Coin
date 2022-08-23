@@ -21,8 +21,9 @@
    background-color: transparent;
    position: absolute;
    width: 30%;
-   bottom: -6.3%;
+   bottom: -5.3%;
    right: 5%;
+   transform: rotate(-5deg);
 }
 .Whats-cyrus{
    margin: 5px auto;
@@ -72,6 +73,7 @@
       text-align: left;
       border-radius: 10px;
   }
+  
 }
 @media (max-width : 1036px){
    .Cyrus-description-text {
@@ -246,6 +248,7 @@
       width: 30%;
       bottom: -6.3%;
       right: 5%;
+      transform: rotate(-5deg);
    }
 }
 @media (max-width : 450px){

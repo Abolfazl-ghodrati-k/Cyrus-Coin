@@ -33,9 +33,10 @@
 .Inprogress-desc-shape-top{
     position: absolute;
     background-color: transparent;
-    top: -11.5%;
+    top: -13.5%;
     left: -9px;
     width: 200px;
+    transform: rotate(5deg);
 }
 .Inprogress-desc-container-main{
     display: grid;
@@ -76,6 +77,8 @@
     width: 30%;
     right: 2%;
     bottom: -19%;
+    transform: rotate(-5deg);
+
 }
 @media (max-width : 1296px){
    .Inprogress-title h1{
@@ -97,6 +100,10 @@
    }
 }
 @media (max-width : 1238px){
+  .Inprogress-container{
+    margin-top: 10px;
+    padding-top: 70px;
+  }
     .Inprogress-title {
         /* font-size: 3rem; */
         grid-row: 1/2;
@@ -212,9 +219,11 @@
       }
       .Inprogress-desc-shape-top{
         top: -7.6%;
+        transform: rotate(5deg);
       }
       .Inprogress-desc-shape-bottom{
         bottom: -7.6%;
+        transform: rotate(-5deg);
       }
 }
 @media (max-width: 742px){
@@ -270,12 +279,15 @@
         margin: 10px auto 0;
       }
       .Inprogress-desc-shape-top{
+        left: -10%;
         top: -4.8%;
-
+        transform: rotate(5deg);
       }
       .Inprogress-desc-shape-bottom{
         bottom: -4.3%;
         width: 50%;
+        transform: rotate(-6deg);
+
       }
 }
 @media (max-width : 382px){

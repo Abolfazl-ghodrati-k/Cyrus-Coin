@@ -120,6 +120,7 @@
         grid-column: 9/13;
         width: 400px;
         height: 400px;
+        margin-right: -100px;
         /* margin-right: 40px;  */
     }
     .welcome-button{
@@ -140,6 +141,7 @@
         grid-column: 9/13;
         width: 350px;
         height: 350px;
+        margin-right: -150px;
         /* margin-right: 40px;  */
     }
     .welcome-button{
@@ -164,13 +166,13 @@
     }
     .welcome-button{
         right:10%;
-        bottom: -7%;
+        bottom: 0;
         font-size: 0.7em;
         padding: 2px 4px; 
     }
     .dots img {
-        width: 10px;
-        height: 20px;
+        width: 20px;
+        height: 50px;
         padding-bottom: 3px;
     }
     .dots{
