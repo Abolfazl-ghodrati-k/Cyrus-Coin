@@ -1,0 +1,220 @@
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    margin: 0.7em 0 4em 0;
+}
+.welcome-text{
+   grid-column: 1/9;
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+   align-items: center;
+   position: relative;
+}
+.dots{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+}
+.dots img {
+    width: 30px;
+    height: 63px;
+    padding-bottom: 3px;
+}
+.welcome-text .text {
+   grid-column: 2/8;
+   color: #F6E98E;
+   font-size: 2.8rem; 
+   margin-left:1em;
+   text-align: left;
+}
+.welcome-button{
+    position: absolute;
+    right: 32%;
+    bottom: -7%;
+    font-size: 1.1em;
+    padding: 5px 7px;
+    color: #F6E98E;
+    background-color: #707070; 
+    /* height: 31px; */
+    display: flex; 
+    align-items: center;
+    /* width: 129px; */
+    justify-content: center;
+    border-radius: 8px;
+}
+.welcome-img{
+    grid-column: 9/13;
+    width: 500px;
+    height: 500px;
+    /* margin-right: 40px;  */
+}
+.guide-line {
+    position: absolute;
+    background: transparent;
+    right: 20%;
+    top: 87%;
+    width: 30%;
+    height: 250%;
+}
+.guide-line svg {
+    background: transparent;
+    position: relative;
+    width: 95%;
+    height: 100%;   
+}
+@media (max-width : 1334px){
+    .welcome-button{
+        right:30%;
+        bottom: -7%;
+        font-size: 1em;
+        padding: 5px 7px; 
+    }
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 2.5rem; 
+        margin-left:0.5em;
+     }
+}
+@media (max-width : 1200px){
+    .welcome-button{
+        right:35%;
+        bottom: -7%;
+        font-size: 1em;
+        padding: 5px 7px; 
+    }
+}
+@media (max-width : 1024px){
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 2.2rem; 
+        margin-left:0.5em;
+     }
+     .welcome-img{
+        grid-column: 9/13;
+        width: 400px;
+        height: 400px;
+        /* margin-right: 40px;  */
+    }
+}
+@media (max-width : 830px)
+{
+    .welcome-button{
+        right:30%;
+        bottom: -7%;
+        font-size: 1em;
+        padding: 5px 7px; 
+    }
+}
+@media (max-width : 810px){
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 2rem; 
+        margin-left:0.5em;
+     }
+     .welcome-img{
+        grid-column: 9/13;
+        width: 400px;
+        height: 400px;
+        /* margin-right: 40px;  */
+    }
+    .welcome-button{
+        right:25%;
+        bottom: -7%;
+        font-size: 1em;
+        padding: 5px 7px; 
+    }
+}
+@media (max-width : 700px){
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 1.8rem; 
+        margin-left:0.3em;
+     }
+     .welcome-img{
+        grid-column: 9/13;
+        width: 350px;
+        height: 350px;
+        /* margin-right: 40px;  */
+    }
+    .welcome-button{
+        right:11%;
+        bottom: -7%;
+        font-size: 0.8em;
+        padding: 3px 5px; 
+    }
+}
+@media (max-width : 500px){
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 1.4rem; 
+        margin-left:0.4em;
+     }
+     .welcome-img{
+        grid-column: 9/13;
+        width: 300px;
+        height: 300px;
+        /* margin-right: 40px;  */
+    }
+    .welcome-button{
+        right:10%;
+        bottom: -7%;
+        font-size: 0.7em;
+        padding: 2px 4px; 
+    }
+    .dots img {
+        width: 10px;
+        height: 20px;
+        padding-bottom: 3px;
+    }
+    .dots{
+        padding-left: 8px !important;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 394px)
+{
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 1.3rem; 
+        margin-left:0.4em;
+     }
+     .dots img {
+        width: 17px;
+        height: 37px;
+        padding-bottom: 3px;
+    }
+    .welcome-button{
+        right:5%;
+        bottom: -7%;
+        font-size: 0.7em;
+        padding: 2px 4px; 
+    }
+}
+@media (max-width: 374px)
+{
+    .welcome-text .text {
+        grid-column: 2/12;
+        color: #F6E98E;
+        font-size: 1.1rem; 
+        margin-left:0.4em;
+     }
+     .dots img {
+        width: 17px;
+        height: 37px;
+        padding-bottom: 3px;
+    }
+    .welcome-button{
+        right:1%;
+        bottom: -7%;
+        font-size: 0.6em;
+        padding: 2px 4px; 
+    }
+}

@@ -1,0 +1,279 @@
+.Cyrus-description-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin:0 auto;
+    /* align-content: center; */
+}
+.Cyrus-description{
+   grid-column: 1/7;
+   margin: 5px auto 5px 8.2em;
+   align-self: center;
+   position: relative;
+}
+.Cyrus-description-text {
+    font-size: 1.1rem;
+    background-color:#F6E98E ;
+    padding: 1em 3.5em 2.4em 1em;
+    text-align: left;
+    border-radius: 10px;
+}
+.Cyrus-description-shape{
+   background-color: transparent;
+   position: absolute;
+   width: 30%;
+   bottom: -6.3%;
+   right: 5%;
+}
+.Whats-cyrus{
+   margin: 5px auto;
+   grid-column: 7/13;
+   align-self: center;
+   display: grid;
+   grid-template-columns: repeat(1fr,3);
+   grid-gap : 30px ;
+
+}
+.Whats-cyrus h1 {
+   font-size: 3.5rem;
+   color: #F6E98E;
+   grid-column: 1/4;
+   text-align: left;
+}
+.Whats-cyrus a {
+   color: #F6E98E;
+   background-color:#707070 ;
+   /* width: 99px;  */
+   padding: 5px  10px ;
+   border-radius: 8px; 
+   text-decoration: none;    
+   grid-column: 1/2;
+   text-align: center;
+
+}
+@media (max-width : 1290px) {
+   .Cyrus-description{
+      grid-column: 1/7;
+      margin: 5px auto 2em;
+      align-self: center;
+   }
+   .Cyrus-description-text {
+      font-size: 1.19rem;
+      background-color:#F6E98E ;
+      padding: 1em 3.5em 2.4em 1em;
+      text-align: left;
+      border-radius: 10px;
+  }
+}
+@media (max-width : 1170px){
+   .Cyrus-description-text {
+      font-size: 1.14rem;
+      background-color:#F6E98E ;
+      padding: 1em 3.5em 2.4em 1em;
+      text-align: left;
+      border-radius: 10px;
+  }
+}
+@media (max-width : 1036px){
+   .Cyrus-description-text {
+      font-size: 1rem;
+      background-color:#F6E98E ;
+      padding: 1em 2.8em 1.9em 1em;
+      text-align: left;
+      border-radius: 10px;
+  }
+  .Whats-cyrus h1 {
+   font-size: 3.4rem;
+   color: #F6E98E;
+   grid-column: 1/4;
+  }
+}
+@media (max-width : 896px){
+   .Cyrus-description-text {
+      font-size: 0.95rem;
+      background-color:#F6E98E ;
+      padding: 1em 2.2em 1.5em .8em;
+      text-align: left;
+      border-radius: 10px;
+  }
+  .Cyrus-description{
+   grid-column: 1/8;
+  }
+  .Whats-cyrus {
+   grid-column: 8/13;
+  }
+  .Whats-cyrus h1 {
+   font-size: 2.7rem;
+   color: #F6E98E;
+   grid-column: 1/4;
+  }
+}
+@media (max-width : 736px){
+   .Cyrus-description{
+      grid-column: 1/9;
+      margin: 5px auto 2em;
+      align-self: center;
+   }
+   .Cyrus-description-text {
+      font-size: 0.94rem;
+      background-color:#F6E98E ;
+      padding: 1em 1.8em 1.5em .8em;
+      text-align: left;
+      border-radius: 10px;
+  }
+  .Whats-cyrus h1 {
+   font-size: 2.05rem;
+   color: #F6E98E;
+   grid-column: 1/4;
+  }
+  .Whats-cyrus{
+   margin: 5px auto;
+   grid-column: 9/13;
+   align-self: center;
+   display: grid;
+   grid-template-columns: repeat(1fr,3);
+   grid-gap : 30px ;
+
+  }
+  .Whats-cyrus a {
+   color: #F6E98E;
+   background-color:#707070 ;
+   /* width: 99px;  */
+   padding: 3px  7px ;
+   border-radius: 8px; 
+   font-size: .8rem;
+   text-decoration: none;    
+   grid-column: 1/2;
+   }
+}
+@media (max-width : 652px){
+   .Cyrus-description{
+      margin: 5px auto ;
+      align-self: center;
+   }
+   .Cyrus-description-text{
+    font-size: .92rem;
+    padding: 1em 1em 1em 1em;
+   }
+   .Whats-cyrus h1{
+   font-size: 1.9rem;
+   }
+}
+@media (max-width : 613px){
+   .Cyrus-description-text{
+      font-size: .95rem ;
+      padding: 1em;
+     }
+     .Cyrus-description{
+      grid-column: 1/10;
+      /* margin: 5px auto 5px 8.2em; */
+      margin: 5px auto ;
+
+      align-self: center;
+      justify-self: center;
+
+   }
+     .Whats-cyrus h1{
+      font-size: 1.5rem;
+      }
+      .Whats-cyrus{
+         grid-column: 10/13;
+         /* margin: 0 auto 0 0; */
+         align-self: center;
+         justify-self: center;
+      }
+}
+@media (max-width : 575px){
+   .Cyrus-description{
+      grid-row: 2/3;
+      grid-column: 1/13;
+      margin: 1.5em 1em ;
+      align-self: center;
+      width: 90%;
+     
+   }
+   .Cyrus-description-shape{
+      background-color: transparent;
+      position: absolute;
+      width: 30%;
+      bottom: -8%;
+      right: 5%;
+   }
+   .Whats-cyrus {
+      width: 90%;
+      grid-column: 1/13;
+      margin: 5px auto ;
+   }
+   .Cyrus-description-text {
+      font-size: 1rem;
+      padding: 5px auto !important;
+   }
+   .Whats-cyrus h1{
+      font-size: 2rem;
+   }
+   .Whats-cyrus a {
+      width: 50%;
+   }
+}
+@media ( max-width : 550px ){
+   .Cyrus-description-shape{
+      background-color: transparent;
+      position: absolute;
+      width: 30%;
+      bottom: -13.5%;
+      right: 5%;
+   }
+}
+@media ( max-width : 500px){
+   .Cyrus-description-text {
+      font-size: 1rem;
+      padding: 1em;
+   }
+   .Whats-cyrus h1{
+      font-size: 1.8rem;
+   }
+   .Whats-cyrus a {
+      width:60%;
+      text-align: center;
+   }
+   .Cyrus-description{
+      margin: 1.5em .5em ;
+      width: 95%;
+
+   }
+   .Cyrus-description-shape{
+      background-color: transparent;
+      position: absolute;
+      width: 30%;
+      bottom: -6.3%;
+      right: 5%;
+   }
+}
+@media (max-width : 450px){
+   .Cyrus-description-shape{
+      background-color: transparent;
+      position: absolute;
+      width: 30%;
+      bottom: -14%;
+      right: 5%;
+   }
+   .Cyrus-description-text {
+      font-size: .9rem;
+      padding: 1em;
+   }
+}
+@media (max-width : 392px){
+   .Cyrus-description-shape{
+      background-color: transparent;
+      position: absolute;
+      width: 30%;
+      bottom: -14%;
+      right: 5%;
+   }
+   .Cyrus-description-text {
+      font-size: .85rem;
+      padding: 1em;
+   }
+   .Whats-cyrus h1{
+      font-size: 1.4rem;
+   }
+}

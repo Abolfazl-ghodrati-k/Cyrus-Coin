@@ -1,0 +1,157 @@
+.Contact-container{
+    display: flex; 
+    justify-content: space-between;
+    margin: 200px 0;
+}
+.Contact-title-container{
+    display: flex; padding: 70px 0; 
+}
+.Contact-title{
+    color:#F6E98E; 
+    margin-left: 40px;
+    margin-top: -20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    text-align: left;
+}
+.Contact-title h1{
+   font-size: 55px;
+   margin-bottom: .4em;
+}
+.Contact-title p{
+    margin-left: 15px; 
+    line-height: 1.5rem; 
+    font-size: 1.2rem;
+}
+.form-container{
+    width: 60%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+}
+.form{
+    position: relative; 
+    padding: 45px 0; 
+    border-radius: 15px; 
+    background-color: #707070; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    /* width: 70%; */
+}
+.username{
+    width: 40%; 
+    padding: 10px ;
+    margin-right:20px; 
+    border-radius: 9px;
+    border: none; 
+    background-color: #F6E98E;
+}
+.password{
+    width: 40%;
+    border-radius: 9px; 
+    border: none;  
+    background-color: #F6E98E; 
+    padding: 10px ;
+}
+.message{
+    width: 87%;
+    margin-top: 25px;
+    height: 150px; 
+    background-color: #F6E98E;
+    border-radius: 9px; 
+    padding: 10px;
+}
+.submit{
+    position: absolute;
+    bottom: -10px; 
+    background-color: #F6E98E;
+    width: 89px;
+    padding: 6px 0; 
+    border-radius: 15px; 
+    border: none; 
+    right: -4%; 
+}
+@media (max-width :1326px) {
+    .Contact-title p{
+        font-size: 1rem;
+    }
+    .form-container{
+        justify-content: center;
+        
+    }
+}
+@media (max-width : 1156px){
+    .Contact-title p{
+        font-size: .95rem;
+        margin-left: -.7em;
+        /* margin-top: 1.5em; */
+    }
+    .form-container{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .Contact-title h1{
+        font-size: 2.5rem;
+        margin-top: .6em ;
+    }
+    
+}
+@media (max-width: 963px){
+    .Contact-title {
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+}
+@media (max-width:946px){
+    .Contact-container{
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    .form-container{
+        /* justify-content: center; */
+        margin: 0;
+        align-self: center;
+        width: 100%;
+    }
+    .Contact-title {
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+   
+}
+@media (max-width:626px){
+    .form-container{
+        /* justify-content: center; */
+        margin: 0 auto;
+        align-self: center;
+        width: 85%;
+    }
+}
+@media (max-width:576px){
+    .form-container{
+        /* justify-content: center; */
+        margin: 0 auto;
+        align-self: center;
+        width: 90%;
+    }
+    .form{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .username{
+        width: 85%;
+        margin: 0 auto 1.4em;
+    }
+    .password{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .Contact-title-container .dots img {
+        width: 20px;
+        height: 50px;
+    }
+}

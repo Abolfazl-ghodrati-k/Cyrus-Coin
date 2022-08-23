@@ -1,0 +1,277 @@
+.Action-container {
+    display: grid;
+    grid-template-columns: repeat(1fr,12);
+}
+.Actions {
+    grid-column: 1/6;
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+}
+/**********************************************/
+.recieve{
+    display: flex;
+    flex-direction: column; 
+}
+.note-img-container{  
+    align-self: center; 
+    border-radius: 50%;
+    background-color: #F6E98E; 
+    padding: 0 .2em; 
+}
+.note-img {
+    margin:.5em 0 0 .5em ; 
+    width: 55px; 
+    height: 60px; 
+    background: transparent;
+}
+.recieve-profit{
+    background-color: #615C5C;
+    transform: rotate(180deg); 
+    writing-mode: vertical-rl;
+    border-radius: 20px; 
+    color: #FCE963; 
+    padding: .75em;
+    text-align: center;
+    align-self: center; 
+    margin: 4.3em 0;
+}
+.income-img-container{
+    align-self: center;
+    border-radius: 50%; 
+    background-color: #F6E98E;
+    padding: 0 .1em;
+}
+.income-img {
+    margin:.5em 0 0 .7em ; 
+    width: 55px; 
+    height: 60px; 
+    background: transparent;
+}
+/**********************************************/
+.register{
+    display: flex;
+    flex-direction: column; 
+}
+.register-text{
+    background-color: #615C5C;
+    border-radius: 20px; 
+    color: #FCE963; 
+    padding: 0.75em 2.2em;  
+    align-self: center; 
+    text-align: center;
+}
+.coin-img {
+    align-self: center;
+    width: 240px; 
+    margin: 20px; 
+    margin-bottom: 37px; 
+}
+.investing-text{
+    background-color: #615C5C; 
+    border-radius: 20px; 
+    color: #FCE963; 
+    padding: 10px; 
+    margin-top: -10px;
+    /* width: 130px; */
+    font-size: .9rem; 
+    align-self: center; 
+    text-align: center;
+}
+/**********************************************/
+.stacking{
+    display: flex; 
+    flex-direction: column;  
+}
+.investment-img-container{
+    
+    align-self: center;
+     
+    border-radius: 50%; 
+    background-color: #F6E98E;   
+    padding: .7em auto;          
+}
+.investment-img{
+    margin:1.4em .6em .8em;
+    width: 60px; 
+    height: 35px; 
+    background: transparent;
+}
+.stacking-text{
+    background-color: #615C5C; 
+    writing-mode: vertical-rl;
+    border-radius: 20px; 
+    color: #FCE963; 
+    padding: 10px; 
+    width: 40px; 
+    height: 130px;
+    text-align: center; 
+    align-self: center; 
+    font-weight: bold;
+    margin: 3.7em 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.factory-img-container{
+   
+   align-self: center;
+    
+   border-radius: 50%; 
+   background-color: #F6E98E; 
+}
+.factory-img{
+    margin:.66em .66em .4em .73em; 
+    width: 45px; 
+    height: 50px; 
+    background: transparent;
+}
+/**********************************************/
+.Learn-more-container {
+   display: flex;
+   grid-column: 6/13;
+   margin: 20px 20px 0 auto;
+   background: transparent;
+}
+.Learn-more{
+    display: flex; 
+    flex-direction: column;
+    padding-right: 70px;
+}
+.Learn-more-title{
+    color: #F6E98E;
+    font-size: 32px;
+    text-align: left;
+}
+.Learn-more-btn {
+    color: #F6E98E; 
+    background-color:#707070 ; 
+    width: 99px; 
+    padding: 5px 0; 
+    margin: 40px 0;
+    border-radius: 8px;
+}
+.Learn-more-cryto{
+    display: flex;
+}
+.binance{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+.binance img {
+    width: 50px;
+}
+.binance p {
+    margin:0 10px 0 0; color: #F6E98E;
+}
+.ada {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+    /* padding-right: 10px; */
+}
+.ada img {
+    width: 50%;
+}
+.ada p {
+    margin:5px 5px 0 0;
+    color: #F6E98E;
+}
+.tether {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.tether img {
+    width: 50%;
+}
+.tether p {
+    margin:5px 5px 0 0; 
+    color: #F6E98E;
+}
+@media (max-width:914px){
+    .coin-img{
+        margin: 20px 0;
+    }
+    .Learn-more{
+        padding-right: 10px;
+    }
+}
+@media (max-width:914px){
+    .coin-img{
+        margin: 20px 0;
+    }
+    .Learn-more{
+        padding-right: 0px;
+    }
+    .Learn-more-container .dots{
+        padding-left: 0;
+    }
+    .Learn-more-container{
+        margin-right: 0;
+    }
+}
+@media (max-width:700px){
+    .Actions{
+        grid-row: 2/3;
+        grid-column: 1/13;
+        margin: 20px auto;
+    }
+    .Learn-more-container {
+        grid-row: 1/2;
+        grid-column: 1/13;
+        justify-self: end;
+        margin-bottom: 5em;
+    }
+    .Learn-more{
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        margin-right: 2em;   
+    }
+    .Learn-more-cryto{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2em;
+    }
+    .Learn-more-title{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .Learn-more-btn{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .tether{
+        padding-right: 10px;
+    }
+    .Learn-more-cryto >*{
+        margin-bottom: 15px;
+        padding-right: 0;
+    }
+    .Learn-more-btn{
+        margin: auto 0;
+    }
+}
+@media (max-width:388px){
+    .Learn-more{
+        margin-right: 1em;
+    }
+    .Learn-more-title{
+        font-size: 1.5rem;
+    }
+    .Learn-more-container{
+        justify-self: center;
+        margin :20px 1em 3em 1em ;
+    }
+    .coin-img{
+        width: 180px;
+        margin: 50px 0;
+    }
+}

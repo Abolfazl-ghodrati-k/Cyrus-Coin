@@ -1,0 +1,301 @@
+.Inprogress-container{
+    padding-top: 150px;
+    display: grid ;
+    grid-template-columns: repeat(1fr,12);
+}
+.Inprogress-title {
+    grid-column: 1/4;
+    align-items: center;
+    display: flex;
+    
+}
+.dots {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px
+}
+
+.Inprogress-title h1{
+    color: #f6e98e;
+    font-weight: 500;
+    font-size: 2.7rem;
+    padding-left: 25px;
+}
+.Inprogress-desc-container{
+    grid-column: 4/13;
+    justify-self: end;
+    margin: 0 2em 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Inprogress-desc-shape-top{
+    position: absolute;
+    background-color: transparent;
+    top: -11.5%;
+    left: -9px;
+    width: 200px;
+}
+.Inprogress-desc-container-main{
+    display: grid;
+    grid-template-columns: repeat(1fr,3);
+    padding:3em 1.5em;
+    background-color: #f6e98e;
+    border-radius: 15px;
+}
+.Inprogress-desc-part1{
+    grid-column: 1/2;
+    background-color: #333;
+    
+    color: #f6e98e;
+    margin-right: .56em;
+    padding: .56em;
+    border-radius: 15px;
+}
+.Inprogress-desc-part2{
+    grid-column: 2/3;
+    background-color: #333;
+    
+    color: #f6e98e;
+    margin-right: .56em;
+    padding: .56em;
+    border-radius: 15px;
+}
+.Inprogress-desc-part3{
+    grid-column:3/4;
+    color: #f6e98e;    
+    background-color: #333;
+    /* margin-right: .56em; */
+    padding: .56em;
+    border-radius: 15px;
+}
+.Inprogress-desc-shape-bottom{
+    background: transparent;
+    position: absolute;
+    width: 30%;
+    right: 2%;
+    bottom: -19%;
+}
+@media (max-width : 1296px){
+   .Inprogress-title h1{
+      font-size: 2.5rem;
+   }
+}
+@media (max-width : 1268px){
+   .Inprogress-title h1{
+      font-size: 2.3rem;
+   }
+   .Inprogress-desc-part1{
+     font-size: .98rem;
+   }
+   .Inprogress-desc-part2{
+     font-size: .98rem;
+   }
+   .Inprogress-desc-part3{
+     font-size: .98rem;
+   }
+}
+@media (max-width : 1238px){
+    .Inprogress-title {
+        /* font-size: 3rem; */
+        grid-row: 1/2;
+        grid-column: 1/13;
+        /* background-color: antiquewhite; */
+        margin-bottom: 3.5em;
+     }
+     .Inprogress-title h1{
+        font-size: 3rem;
+        margin-bottom:10px ;
+     }
+     .dots img{
+        width: 35px;
+        height: 80px;
+     }
+     .Inprogress-desc-container{
+        grid-column: 1/13;
+        justify-self: center;
+        margin: 0 auto;
+     }
+     .Inprogress-desc-part1{
+        font-size: 1.1rem;
+      }
+      .Inprogress-desc-part2{
+        font-size: 1.1rem;
+      }
+      .Inprogress-desc-part3{
+        font-size: 1.1rem;
+      }
+}
+@media (max-width : 1042px){
+  .Inprogress-desc-part1{
+    font-size: .95rem;
+  }
+  .Inprogress-desc-part2{
+    font-size: .95rem;
+  }
+  .Inprogress-desc-part3{
+    font-size: .95rem;
+  }
+}
+@media (max-width : 962px){
+    .Inprogress-container{
+        padding-top: 80px;
+    }
+    .Inprogress-title {
+        /* font-size: 3rem; */
+        grid-row: 1/2;
+        grid-column: 1/13;
+        /* background-color: antiquewhite; */
+        margin-bottom: 3.5em;
+     }
+     .Inprogress-title h1{
+        font-size: 2.5rem;
+        margin-bottom:10px ;
+     }
+     .dots img{
+        width: 30px;
+        height: 70px;
+     }
+     .Inprogress-desc-container{
+        grid-column: 1/13;
+        justify-self: center;
+        margin: 0 auto;
+     }
+     .Inprogress-desc-part1{
+        font-size: .92rem;
+      }
+      .Inprogress-desc-part2{
+        font-size: .92rem;
+      }
+      .Inprogress-desc-part3{
+        font-size: .92rem;
+      }
+}
+@media (max-width : 888px){
+    .Inprogress-title {
+        /* font-size: 3rem; */
+        grid-row: 1/2;
+        grid-column: 1/13;
+        /* background-color: antiquewhite; */
+        margin-bottom: 3.5em;
+     }
+     .Inprogress-title h1{
+        font-size: 2.5rem;
+        margin-bottom:10px ;
+     }
+     .dots img{
+        width: 30px;
+        height: 70px;
+     }
+     .Inprogress-desc-container{
+        grid-column: 1/13;
+        justify-self: center;
+        margin: 0 auto;
+     }
+     .Inprogress-desc-part1{
+        font-size: 1.1rem;
+        grid-column: 1/7;
+        grid-row: 1/2;
+      }
+      .Inprogress-desc-part2{
+        font-size: 1.1rem;
+        grid-row: 2/3;
+        grid-column: 1/13;
+        margin: 10px auto 0;
+
+      }
+      .Inprogress-desc-part3{
+        font-size: 1.1rem;
+        grid-column:7/12;
+        grid-row: 1/2;
+      }
+      .Inprogress-desc-shape-top{
+        top: -7.6%;
+      }
+      .Inprogress-desc-shape-bottom{
+        bottom: -7.6%;
+      }
+}
+@media (max-width: 742px){
+  .Inprogress-desc-part1{
+    font-size: 1rem;   
+  }
+  .Inprogress-desc-part2{
+    font-size: 1rem;
+  }
+  .Inprogress-desc-part3{
+    font-size: 1rem;
+  }
+}
+@media (max-width : 650px){
+    .Inprogress-title {
+        /* font-size: 3rem; */
+        grid-row: 1/2;
+        grid-column: 1/13;
+        /* background-color: antiquewhite; */
+        margin-bottom: 3.5em;
+     }
+     .Inprogress-title h1{
+        font-size: 2.2rem;
+        margin-bottom:10px ;
+     }
+     .dots img{
+        width: 30px;
+        height: 70px;
+     }
+     .Inprogress-desc-container{
+        grid-column: 1/13;
+        justify-self: center;
+        margin: 0 auto;
+     }
+     .Inprogress-desc-part1{
+        font-size: 1.1rem;
+        grid-column: 1/13;
+        grid-row: 1/2;
+        margin: 0px auto 0;
+
+      }
+      .Inprogress-desc-part2{
+        font-size: 1.1rem;
+        grid-row: 2/3;
+        grid-column: 1/13;
+        margin: 10px auto 0;
+
+      }
+      .Inprogress-desc-part3{
+        font-size: 1.1rem;
+        grid-column:1/13;
+        grid-row: 3/4;
+        margin: 10px auto 0;
+      }
+      .Inprogress-desc-shape-top{
+        top: -4.8%;
+
+      }
+      .Inprogress-desc-shape-bottom{
+        bottom: -4.3%;
+        width: 50%;
+      }
+}
+@media (max-width : 382px){
+    .dots img {
+        width: 25px;
+        height: 60px;
+    }
+    .Inprogress-title h1 {
+        font-size: 2rem;
+    }
+    .Inprogress-desc-part1{
+        font-size: 1rem;
+    }
+    .Inprogress-desc-part2{
+        font-size: 1rem;
+    }
+    .Inprogress-desc-part3{
+        font-size: 1rem;
+    }
+    .Inprogress-desc-shape-top{
+        top: -6.3%;
+    }
+}
